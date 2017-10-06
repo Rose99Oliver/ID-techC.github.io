@@ -1,0 +1,63 @@
+﻿Build started 7/22/2015 10:31:19 AM.
+     1>Project "C:\Users\student\Desktop\Rose O\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(1): warning C4627: '#include "Source.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(7): error C2065: 'card' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(7): error C2146: syntax error : missing ';' before identifier 'deckOfCards'
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(7): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(11): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(11): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(12): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(12): error C2228: left of '.suit' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(16): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(16): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(17): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(17): error C2228: left of '.suit' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(21): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(21): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(22): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(22): error C2228: left of '.suit' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(26): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(26): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(27): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(27): error C2228: left of '.suit' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(29): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(29): error C3861: 'shuffle': identifier not found
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(31): error C2065: 'card' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(31): error C2146: syntax error : missing ';' before identifier 'player1Hand'
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(31): error C2065: 'player1Hand' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(32): error C2065: 'card' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(32): error C2146: syntax error : missing ';' before identifier 'player2Hand'
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(32): error C2065: 'player2Hand' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(41): error C2065: 'player1Hand' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(41): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(45): error C2065: 'player2Hand' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(45): error C2065: 'deckOfCards' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(51): error C2065: 'cout' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(51): error C2065: 'endl' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(54): error C2065: 'cout' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(54): error C2065: 'player1Hand' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(54): error C2228: left of '.displayCard' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(56): error C2065: 'cout' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(56): error C2065: 'endl' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(59): error C2065: 'cout' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(59): error C2065: 'player2Hand' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(59): error C2228: left of '.displayCard' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(65): error C2065: 'player1Hand' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(65): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(71): error C2065: 'player2Hand' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(71): error C2228: left of '.value' must have class/struct/union
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(75): error C2065: 'cout' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(75): error C2065: 'endl' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(77): error C2065: 'cout' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(77): error C2065: 'endl' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(79): error C2065: 'cout' : undeclared identifier
+     1>c:\users\student\desktop\rose o\consoleapplication1\consoleapplication1\source.cpp(79): error C2065: 'endl' : undeclared identifier
+     1>Done Building Project "C:\Users\student\Desktop\Rose O\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.70
